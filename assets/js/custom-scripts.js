@@ -189,7 +189,30 @@
             items: 3,
           }
         }
-    });  
+    });
+    
+         $('#mh-achivement').owlCarousel({
+        loop: false,
+        responsiveClass: true,
+        nav: true,
+        autoplay: false,
+        smartSpeed: 450,
+        stopOnHover : true,
+        animateIn: 'slideInRight',
+        animateOut: 'slideOutLeft',
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          768: {
+            items: 2,
+          },
+          1170: {
+            items: 3,
+          }
+        }
+    });
     
     /*
     |=================
