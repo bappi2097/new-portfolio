@@ -5,7 +5,7 @@
           zoom: 17,
           scrollwheel: false, 
           navigationControl: false,
-          center: new google.maps.LatLng(24.906308,91.870413),
+          center: new google.maps.LatLng(23.771512362989043, 90.36200503545157),
           styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},
           {"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},
           {"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},
@@ -23,9 +23,9 @@
       var mapElement = document.getElementById('mh-map');
       var map = new google.maps.Map(mapElement, mapOptions);
       var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(24.906308,91.870413),
+          position: new google.maps.LatLng(23.771512362989043, 90.36200503545157),
           map: map,
-          title: '33/4, Shyamoli, Dhaka - 1207, Bangladesh'
+          title: '33/4 Babar Rd, Dhaka'
       });
     }
 
